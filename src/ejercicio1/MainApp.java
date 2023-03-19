@@ -1,7 +1,7 @@
 /**
  * 
  */
-package prs_tarea10_reus_java_03_23;
+package ejercicio1;
 
 /**
  * @author Palmira
