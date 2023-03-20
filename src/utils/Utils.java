@@ -11,8 +11,9 @@ import java.util.Scanner;
  *
  */
 public class Utils {
-
 	// Clase creada para implementar funciones reutilizables.
+	static 
+	Scanner sc = new Scanner(System.in);
 
 	public static int generarRandom(int min, int max) {
 		Random random = new Random();
@@ -21,19 +22,16 @@ public class Utils {
 	}
 
 	public static String pedirString() {
-		Scanner sc = new Scanner(System.in);
 		String palabra = sc.nextLine();
 		return palabra;
 	}
 
 	public static int pedirEntero() {
-		Scanner sc = new Scanner(System.in);
 		int numero = sc.nextInt();
 		return numero;
 	}
 
 	public static double pedirReal() {
-		Scanner sc = new Scanner(System.in);
 		double numero = sc.nextDouble();
 		return numero;
 	}
